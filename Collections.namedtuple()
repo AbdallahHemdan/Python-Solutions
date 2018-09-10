@@ -1,8 +1,0 @@
-from collections import namedtuple
-n = int(input())
-student = namedtuple("student",input().split())
-sum = 0.0
-for i in range(n) : 
-    temp = student(*input().split())
-    sum += int(temp.MARKS) 
-print(sum/n)
